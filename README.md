@@ -1,13 +1,12 @@
 # whoobe-one-vite
 
-Build full static web pages created with [**whoobe-one-studio**](https://github.com/swina/whoobe-one-studio) using ViteJS.
+Build full static TailwindCSS web pages/components created with [**whoobe-one-studio**](https://github.com/swina/whoobe-one-studio) using ViteJS.
 
 AlpineJS and GSAP support included.
 
 ## whoobe-one-studio
 
-Whoobe-One-Studio is a visual web page builder that creates a build distribution ready to be deployed with whoobe-one-vite.
-From the preview of any page create with Whoobe-One-Studio
+[**Whoobe-One-Studio**](https://whoobe-one-studio.vercel.app) is a visual web page builder that creates a build distribution ready to be deployed with whoobe-one-vite.
 
 ### Build a static webpage
 
@@ -15,6 +14,9 @@ From the preview of any page create with Whoobe-One-Studio
 - save the file in the **./src** folder of whoobe-one-vite as **whoobe.js**
 - run **npm run build** or **yarn build** to generate the full static webpage
 
+### SEO support
+
+From whoobe-one-studio the settings of the page/component are used to create the title, description and keywords meta tags for the page.
 
 
 ## Getting Started
