@@ -15,7 +15,7 @@ link.type = "text/css";
 link.rel = "stylesheet";
 link.href = 'https://fonts.googleapis.com/css?family=' + whoobe.fonts.join('|')
 head.appendChild ( link )
-console.log ( whoobe )
+
 if ( whoobe.tags ){
     try {
         var keywords = document.createElement('meta');
